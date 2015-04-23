@@ -16,14 +16,17 @@ npm install
 # Start node server
 
 1. Using `babel-node`
+
 ```
 babel-node index.js
 ```
+
 2. Using `nodemon`
 ```
 nodemon --exec babel-node -- index.js
 ```
 ![alt tag](https://github.com/umkatakam/nodeproxy/blob/master/images/start-server-nodemon.gif)
+
 3. Using npm start script
 ```
 npm start
